@@ -110,4 +110,10 @@ make up the functionality of the program. What happens if you change the code
 and break something? Can you understand the error the `ipython` gives you and
 fix the issue?
 
+Try this:
+* To see how Python handles errors, remove one of the two equals signs in the `elif` line
+  * so that the line reads `elif name = 'Zach':`
+  * Then, try to re-looad the file with `run rps.py`
+  * Python will tell you there is a "syntax error" and give you a chance to fix it. 
+
 Good luck!
