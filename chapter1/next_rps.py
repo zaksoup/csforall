@@ -16,9 +16,5 @@ def rps():
 
     if user == 'rock':
         print('Ha! I really chose paper--I WIN!')
-    elif 1 == 2:
-        print("example")
-    else:
-        print('Guess you win')
 
     print("Better luck next time...")

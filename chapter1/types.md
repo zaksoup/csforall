@@ -58,11 +58,28 @@ ___
 In all programming languages we need to differentiate between *our code* and *data*.
 We need a way to tell the computer "this value I'm giving you is data, not code".
 In order to do this we have to define for a computer exactly what shape data can take.
-This definition is a "type". The simplest and most common type is an Integer. That is,
-a whole number that can be negative or positive with no decimal. The next most simple
-type is a Character. That's a single letter. And finally, the type that we're confused
-about now is a String. A string is just a group of characters in order. So, the string
-`"Zak"` is just the characters 'Z' and 'a' and 'k' but all bunched together.
+This definition is a "type". 
+
+The simplest and most common type is an Integer. That is, a whole number that can be 
+negative or positive with no decimal. 
+
+```python
+var = 12
+```
+
+The next most simple type is a Character. That's a single letter. 
+
+```python
+var = 'c'
+```
+
+And finally, the type that we're confused about now is a String. A string 
+is just a group of characters in order. So, the string `"Zak"` is just the 
+characters 'Z' and 'a' and 'k' but all bunched together.
+
+```python
+var = "Zak"
+```
 
 How do we tell the computer "this is a string, not code"? Well, we surround it in
 quotes! So in our example
